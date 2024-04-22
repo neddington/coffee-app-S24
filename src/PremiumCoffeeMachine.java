@@ -5,7 +5,7 @@ import coffee_bin.Coffee;
 import coffee_bin.CoffeeBean;
 import coffee_bin.CoffeeGrounds;
 import cupboard.*;
-public class PremiumCoffeeMachine {
+public class PremiumCoffeeMachine implements CoffeeMachine {
     final private Map<CoffeeSelection, Configuration> configMap;
     final private Map<CoffeeSelection, CoffeeBean> beans;
     final private Grinder grinder;
